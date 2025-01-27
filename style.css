@@ -8,9 +8,61 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1475px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* header */
+.header-wraper {
+  border: 1px solid;
+  height: 387.56px;
+  background-color: #0020f4;
+}
+
+nav ul a {
+  font-size: 16px;
+  color: white;
+}
+
+.header-wraper,
+nav ul {
+  display: flex;
+  gap: 45px;
+  justify-content: space-around;
+  align-items: first baseline;
+}
+
+header img {
+  width: 97px;
+  height: 55px;
+}
+
+.contact {
+  border: 1px solid;
+  width: 160px;
+  height: 55px;
+  background-color: white;
+  padding-top: 18px;
+  padding-left: 36px;
+  border-radius: 30px;
+}
+.contact a {
+  color: black;
+}
+ul {
+  position: relative;
+}
+.line {
+  border-top: 1px solid #ffffff;
+  width: 37px;
+  position: absolute;
+  top: 80%;
+  left: 1.6%;
 }
