@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "HELVETICA-BOLD";
+  src: url(../fonts/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf);
+}
+
+@font-face {
+  font-family: "HELVETICA-NORM";
+  src: url(../fonts/HELVETICANEUELTGEO-45LIGHTS.ttf);
+}
+
+.font1 {
+  font-family: "HELVETICA-BOLD";
+}
+
+.font2 {
+  font-family: "HELVETICA-NORM";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1475px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* header */
+.header-wraper {
+  border: 1px solid;
+  height: 387.56px;
+  background-color: #0020f4;
+  position: relative;
+}
+
+nav ul a {
+  font-size: 16px;
+  color: white;
+}
+
+.header-wraper,
+nav ul {
+  display: flex;
+  gap: 45px;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+header img {
+  width: 97px;
+  height: 55px;
+}
+
+.contact {
+  border: 1px solid;
+  width: 160px;
+  height: 55px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.contact a {
+  color: black;
+}
+ul {
+  position: relative;
+}
+.line {
+  border-top: 1px solid #ffffff;
+  width: 37px;
+  position: absolute;
+  top: 80%;
+  left: 1.6%;
+}
+
+/* section 1 */
+.mainImg,
+.articles {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 28px;
+  padding-left: 125px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+p {
+  margin-left: 125px;
+  margin-right: 125px;
+  padding-top: 18px;
+}
+
+.section1 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.seeMore {
+  width: 341px;
+  height: 55px;
+  background-color: #0a22f4;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 58px;
+}
+
+.articles {
+  gap: 25px;
+  margin-bottom: 42px;
+}
