@@ -304,6 +304,10 @@ iframe {
   }
 
   .section2-P {
-    display: unset;
+    display: none;
+  }
+  .section-contact {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
