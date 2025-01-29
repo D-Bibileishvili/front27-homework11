@@ -167,7 +167,7 @@ form {
 }
 
 .input-wrapper {
-  width: 463px;
+  max-width: 463px;
   display: flex;
   flex-direction: column;
   padding-bottom: 40px;
