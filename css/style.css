@@ -42,7 +42,13 @@ a {
   border: 1px solid;
   height: 387.56px;
   background-color: #0020f4;
+  /* position: relative; */
+  /* z-index: 1; */
+}
+
+header {
   position: relative;
+  z-index: 1;
 }
 
 nav ul a {
@@ -94,7 +100,7 @@ ul {
   justify-content: center;
 }
 
-h1 {
+.section1-h1 {
   font-size: 28px;
   padding-left: 125px;
   width: 100%;
@@ -102,7 +108,7 @@ h1 {
   margin-bottom: 60px;
 }
 
-p {
+.section1-P {
   margin-left: 125px;
   margin-right: 125px;
   padding-top: 18px;
@@ -110,9 +116,10 @@ p {
 
 .section1 {
   position: absolute;
-  top: 100%;
+  top: 35%;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -10%);
+  z-index: 2;
 }
 
 .seeMore {
@@ -131,4 +138,124 @@ p {
 .articles {
   gap: 25px;
   margin-bottom: 42px;
+}
+
+/* section2 */
+.section-wrapper {
+  display: flex;
+  margin-top: 150vh;
+  background-color: #0a22f4;
+  justify-content: space-around;
+}
+
+.section-contact {
+  max-width: 463px;
+  margin-top: 100px;
+  color: white;
+}
+
+label,
+.section2-P {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+form {
+  max-width: 463px;
+  margin: 100px auto;
+}
+
+.input-wrapper {
+  width: 463px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+input,
+textarea {
+  background-color: #0a22f4;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(177, 166, 166, 0.5);
+}
+
+textarea {
+  padding-top: 100px;
+  resize: none;
+}
+
+button {
+  width: 151px;
+  height: 55px;
+  border-radius: 30px;
+  margin-top: 40px;
+  color: #171717;
+  margin-left: 312px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+/* contact */
+iframe {
+  width: 463px;
+  height: 197px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 58px;
+}
+
+.box {
+  width: 1000px;
+}
+
+.box,
+.logo1,
+.logo2 {
+  display: flex;
+  align-items: center;
+}
+
+.phone,
+.email {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.box {
+  margin-top: 60px;
+}
+
+.section2-h1 {
+  padding-bottom: 30px;
+}
+
+.logo2 {
+  margin-left: 98px;
+}
+
+/* footer */
+.footer {
+  background-color: #0a22f4;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 125px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.rightSide {
+  display: flex;
+  margin-right: 125px;
+  gap: 20px;
 }
