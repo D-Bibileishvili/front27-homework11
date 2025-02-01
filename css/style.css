@@ -43,7 +43,6 @@ a {
 
 /* header */
 .header-wraper {
-  /* border: 1px solid; */
   height: 387.56px;
   background-color: #0020f4;
 }
@@ -51,11 +50,6 @@ a {
 header {
   margin-top: 0%;
 }
-
-/* header {
-  position: relative;
-  z-index: 1;
-} */
 
 nav ul a {
   font-size: 16px;
@@ -67,12 +61,7 @@ nav ul {
   display: flex;
   gap: 45px;
   justify-content: space-between;
-  /* align-items: center; */
-  /* padding-top: 5px; */
   padding: 5px 5px 0px 5px;
-  /* padding-bottom: 5px; */
-  /* margin-left: 90px;
-  margin-right: 60px; */
 }
 
 header img {
